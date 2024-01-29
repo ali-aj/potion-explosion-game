@@ -5,8 +5,13 @@ Welcome to the Potion Explosion game! This is a console-based game where players
 ## How to Play
 
 ### Setup
-1. Compile and run the provided C++ code to start the game.
-2. Enter the names of two players when prompted.
+1. Download the `game.cpp` file to your system.
+2. Navigate to the folder where `game.cpp` is downloaded.
+3. Right-click and "Open as terminal".
+4. Run the following commands on your terminal:
+   - `g++ -o potion_explosion game.cpp -lrt`
+   - `./potion_explosion`
+5. Enter the names of two players when prompted.
 
 ### Gameplay
 - Players take turns to:
@@ -30,31 +35,14 @@ Welcome to the Potion Explosion game! This is a console-based game where players
 4. The game ends when all potions are brewed.
 
 ## Dependencies
-- This game is written in C++ and requires a C++ compiler to run.
-- Ensure you have the C++ compiler installed on your machine.
-- Make sure you have a Linux operating system (preferably Ubuntu).
+- This game is a work in progress and not all functionalities are implemented yet.
+- The game is written in C++ and requires a C++ compiler to run.
+- Ensure you have the necessary libraries installed to compile and execute the code.
 
-## How to Run
-1. Download game.cpp file on your system.
-2. Navigate to the folder where game.cpp is downloaded.
-3. Right-click and "Open as terminal".
-4. Run the following commands on your terminal:
-    - g++ -o potion_explosion game.cpp -lrt
-    - ./potion_explosion
 
-## Example Gameplay
-```
-$ ./potion_explosion
-
-Welcome to Potion Explosion!
-
-Enter Player 1's name: Alice
-Enter Player 2's name: Bob
-
-Press Enter to start...
-
-...
-```
+## Note
+- This game is a work in progress and not all functionalities are implemented yet.
+- For a better understanding of the game mechanics and features, watch this [video](https://www.youtube.com/watch?v=iSODqRFNe3I).
 
 ## Enjoy the Game!
 Get ready to brew some magical potions and compete against your friends. Have fun playing Potion Explosion!
